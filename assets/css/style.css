@@ -10,9 +10,9 @@
 
 #imgText{
     position: absolute;
-    background-color: hsl(178, 67%, 40%);
+
     width: 35%;
-    color:white;
+
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 1.5em;
@@ -143,6 +143,8 @@ h1 {
     width: 35%;
     height: auto;
     float: left;
+    color:white;
+    background-color: hsl(178, 67%, 40%);
     margin: 1%;
 }
 
@@ -193,21 +195,6 @@ footer {
     border-top-width: 0.75%;
     border-top-style: solid;
 }
-
-/*footer {
-    position: absolute;
-    background-color: rgba(100, 100, 100, 0.8);
-    padding: 0.6%;
-    text-align: center;
-    width: 100%;
-    margin-top: 3%;
-    font-size:0.66666em;
-    color: rgba(255, 255,255,0.8);
-    bottom: 0;
-    border-top-color: hsl(178, 67%, 40%, 0.333);
-    border-top-width: 0.75%;
-    border-top-style: solid;
-}*/
 
 /*text input field formatting; line fields first, then text area field*/
 input[type=text], select {
